@@ -15,7 +15,7 @@ const getConfiguredPassport = async () => {
 
     // Part 3a, discover Curity Server metadata and configure the OIDC client
     const client = await discoverAndCreateClient({
-        issuerUrl: 'https://login-garcher.eu.ngrok.io/oauth/v2/oauth-anonymous',
+        issuerUrl: 'https://idsvr.example.com/oauth/v2/oauth-anonymous',
         clientID: "demo-client",
         clientSecret: "Secr3t",
         redirectUris: ["http://localhost:3000/callback"]

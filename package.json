@@ -2,21 +2,21 @@
   "name": "express-openid-connect-website",
   "version": "1.0.0",
   "description": "OpenID Connect Client with NodeJS Express and Passport",
-  "main": "index.js",
+  "homepage": "https://github.com/curityio/express-openid-connect-website#readme",
+  "repository": "https://github.com/curityio/express-openid-connect-website",
+  "author": "Curity AB",
+  "license": "Apache-2.0",
+  "keywords": [
+    "oauth2",
+    "openid",
+    "jwt",
+    "jwks",
+    "express",
+    "passport"
+  ],
   "scripts": {
     "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/curityio/express-openid-connect-website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/curityio/express-openid-connect-website/issues"
-  },
-  "homepage": "https://github.com/curityio/express-openid-connect-website#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",

@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
 const handleIndex = (req, res) => {
-    res.render('index', {});
-}
+  res.render("index", {});
+};
 
-router.get('/', handleIndex);
+router.get("/", handleIndex);
 
 module.exports = router;

@@ -1,7 +1,7 @@
 const { getSimpleJwksService, secure } = require("express-oauth-jwt");
 
 const jwksService = getSimpleJwksService(
-  "https://idsvr.example.com/oauth/v2/oauth-anonymous/jwks",
+  "http://localhost:8443/oauth/v2/oauth-anonymous/jwks"
 );
 
 const express = require("express");

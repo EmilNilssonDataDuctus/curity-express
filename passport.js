@@ -19,8 +19,9 @@ const getConfiguredPassport = async () => {
   // Part 3a, discover Curity Server metadata and configure the OIDC client
   const client = await discoverAndCreateClient({
     issuerUrl: "http://localhost:8443/oauth/v2/oauth-anonymous",
-    clientID: "demo-client",
-    clientSecret: "Secr3t",
+    clientID: "demo-client-node-express",
+    clientSecret:
+      "VWPXdGUgF-rFOGH0idEwA8yrk9fOwQWdMhVqBgdNPU1JPw2SF1mB5QBr2acOAlOQ",
     redirectUris: ["http://localhost:3000/callback"],
   });
 
